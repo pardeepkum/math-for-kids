@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+.topics{
+    background-color: lawngreen;
+    list-style-type: none;
+    
+    font-size: 30px;
+    border-radius: 10px;
+
+    
+
+}
+.topics li{
+    float:left;
+    margin-top:20px;
+
+    padding:10px 20px;
+    
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.terms{
+    display: inline-block;
+    font-size: 190px;
+}
+.container{
+    display: flex;
+
+
+
+}
+.questions{
+    box-shadow: 5px 5px 5px grey;
+    width:80vw;
+    height:80vh;
+    text-align: center;
+    background-color: lightgreen;
+    
+}
+.option{
+    cursor: grab;
+    background-color: lightgreen;
+    box-shadow: 3px 3px 5px grey;
+    width:200px;
+    height:200px;
+    text-align: center;
+    border-radius: 10px;
+    margin:10px;
+                
+}
+
+.option p{
+    font-size:80px;
+    margin:0px;
+    padding-top:20px;
+    text-align: center;
+}
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+
+}
+tr{
+    border:1px solid black;
+}
+th{
+    border:1px solid black;
+    padding:10px;
+}
+.remarks{
+    width:50vw;
+    font-size: 25px;
+}
+.reset{
+    padding:10px 20px;
+    background-color:black;
+    color:white;
+    border-radius:25px;
+    text-decoration: none;
+    margin-right: 50px;
+    float: right;
+}
+.game{
+    
+    margin-left: 1000px;
+    padding: 20px;
+}
+p{
+    font-size: 25px;
+    text-align: left;
+}

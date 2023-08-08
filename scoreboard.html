@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <ul class="topics">
+        <ul class="topics">
+            <li><a href="addition.html">Addition</a></li>
+            <li><a href="substraction.html">Substraction</a></li>
+            <li> <a href="multiplication.html">Multiplication</a></li>
+            <li> <a href="division.html">Division</a></li>
+            <li > <a href="scoreboard.html">Exit</a></li>
+            
+    </ul>
+    <h2 class="game">Math for Kids</h2>
+ 
+    <div class="container">
+        
+        <div class="questions">
+            <h2>Your scoreboard</h2>    
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Attempts</th>
+                    <th> Right</th>
+                    <th> Wrong</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Addition</td>
+                    <td id="add_attempt"></td>
+                    <td id="add_right"></td>
+                    <td id="add_wrong"></td>
+                    <td class="remarks"></td>
+                </tr>
+                <tr>
+                    <td>Subtraction</td>
+                    <td id="sub_attempt"></td>
+                    <td id="sub_right"></td>
+                    <td id="sub_wrong"></td>
+                    <td class="remarks"></td>
+                </tr>
+                <tr>
+                    <td>Multiplication</td>
+                    <td id="mul_attempt"></td>
+                    <td id="mul_right"></td>
+                    <td id="mul_wrong"></td>
+                    <td class="remarks"></td>
+                </tr>
+                <tr>
+                    <td>Division</td>
+                    <td id="div_attempt"> </td>
+                    <td id="div_right"></td>
+                    <td id="div_wrong"></td>
+                    <td class="remarks"></td>
+                </tr>
+            </table>
+            <a href="index.html" class="reset" >Reset</a>
+        </div>
+        <div class="options">
+            <div class="option" id="option1">
+                <p id="first_ans"></p>
+            </div>
+            <div class="option" id="option2">
+                <p id="second_ans"></p>
+            </div>
+            <div class="option" id="option3">
+                <p id="third_ans"></p>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+    <script src="js/scoreboard.js"></script>
+</body>
+</html>
